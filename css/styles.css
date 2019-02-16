@@ -1,12 +1,15 @@
+/* crousel */
 #title{
 }
 .carousel1{
   height: 500px;
   width:50%;
 }
+/* body */
 body{
 
 }
+/* default paragraph */
 p{
   font-family: 'Raleway', sans-serif;
     color: #fff;
@@ -14,6 +17,7 @@ p{
     line-height: 2;
 
 }
+/* default h5 */
 h5{
   margin-left: 10px;
   font-family: 'Cinzel', serif;
@@ -22,13 +26,13 @@ h5{
   font-weight: bold;
   color: #000;
 }
+/* default h3 */
 h3{
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
-.contanier{
-  padding: 2% 3% 0 3%;
-}
+/* default contanier */
+/* features */
 #features{
   padding: 7% 15%;
 }
@@ -43,12 +47,7 @@ h3{
   font-size: 2.5rem;
 
 }
-/* title img */
 
-.price{
-  text-align:
-
-}
 .feature-box{
   text-align: center;
   padding: 10% 5%;
@@ -90,9 +89,6 @@ h3{
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-.contanier{
-  padding: 0;
-}
 .col-lg-12{
   padding: 0;
 }
@@ -126,7 +122,39 @@ h3{
 .price-card{
 padding-top: 0;
 padding-bottom: 5%;
+background-color: #233142;
+margin-bottom: 1rem;
 }
+.price-card:hover{
+  background-color: #141414;
+}
+
 .card-header{
   background-color: #2f89fc;
+}
+/* contact us */
+#contact-us{
+  padding-top: 2%;
+  background-color: #010101;
+  text-align: center;
+}
+.add{
+  font-size: 0.65rem;
+}
+.address{
+  margin: 0;
+  padding: 0;
+}
+.contact{
+  padding: 0;
+  margin: 0;
+}
+a{
+  color: white;
+}
+#packages{
+  padding-bottom: 20%;
+}
+#footer{
+  background-color: black;
 }
